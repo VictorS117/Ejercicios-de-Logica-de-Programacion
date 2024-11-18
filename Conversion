@@ -12,7 +12,7 @@ Algoritmo Conversion
 	Escribir "Ingresa el numero de Kilos: ";
 	Leer Kilos;
 	Si Kilos>=1 Entonces
-		libras <- Kilos*0.4535
+		libras <- Kilos*2.20462
 		Escribir "Valor en Libras: ", libras " lbs";
 	FinSi
 FinAlgoritmo
