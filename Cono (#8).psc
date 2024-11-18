@@ -1,5 +1,5 @@
-//Dados el radio, la generatriz y la altura de un cono como calculas el área de la base, el área lateral, el área total y su volumen//
-Algoritmo CalcularPropiedadesCono
+//Dados el radio, la generatriz y la altura de un cono como calculas el Ã¡rea de la base, el Ã¡rea lateral, el Ã¡rea total y su volumen//
+Algoritmo Cono
 	Definir Radio, Generatriz, Altura, Area_Base, Area_Lateral, Area_Total, Volumen Como Real
 	
 	Escribir "Ingrese el radio del cono:"
@@ -13,8 +13,8 @@ Algoritmo CalcularPropiedadesCono
 	Area_Total <- area_base + area_lateral
 	Volumen <- (1 / 3) * PI * (radio ^ 2) * altura
 	
-	Escribir "El área de la base es: ", Area_Base
-	Escribir "El área lateral es: ", Area_Lateral
-	Escribir "El área total es: ", Area_Total
+	Escribir "El Ã¡rea de la base es: ", Area_Base
+	Escribir "El Ã¡rea lateral es: ", Area_Lateral
+	Escribir "El Ã¡rea total es: ", Area_Total
 	Escribir "El volumen del cono es: ", Volumen
 FinAlgoritmo
